@@ -98,10 +98,11 @@ theme: ayer
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-  repo: https://github.com/lorkta/lorkta.github.io.git
-  branch: master
-
+  type: git
+  repo:
+    coding: git@e.coding.net:runninglamedog/blog.git,master
+    github: git@github.com:Lorkta/lorkta.github.io.git,master
+    
 # hexo-generator-searchdb
 search:
   path: search.xml
